@@ -1,0 +1,2 @@
+[console_scripts]
+excellent-quote = quote_cli:main

@@ -1,0 +1,8 @@
+pyproject.toml
+quote_cli.py
+excellent_quote.egg-info/PKG-INFO
+excellent_quote.egg-info/SOURCES.txt
+excellent_quote.egg-info/dependency_links.txt
+excellent_quote.egg-info/entry_points.txt
+excellent_quote.egg-info/requires.txt
+excellent_quote.egg-info/top_level.txt

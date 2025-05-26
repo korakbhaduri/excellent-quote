@@ -8,7 +8,7 @@ license = {text = "MIT"}
 dependencies = ["click"]
 
 [project.scripts]
-excellent-quote = "quote_cli:main"
+excellent-quote = "excellent_quote.cli:main"
 
 [tool.setuptools.package-data]
-"*" = ["quotes.csv"]  # include the CSV inside the wheel
+excellent_quote = ["quotes.csv"]       
