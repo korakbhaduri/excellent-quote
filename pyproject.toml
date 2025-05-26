@@ -1,5 +1,5 @@
 [project]
-name = "excellent-quote"
+name = "excellent_quote"
 version = "0.1.0"
 description = "Tiny CLI that prints random Kevin Kelly quotes"
 readme = "README.md"
@@ -8,7 +8,7 @@ license = {text = "MIT"}
 dependencies = ["click"]
 
 [project.scripts]
-excellent-quote = "excellent_quote.cli:main"
+excellent_quote = "excellent_quote.cli:main"
 
 [tool.setuptools.package-data]
 excellent_quote = ["quotes.csv"]       
