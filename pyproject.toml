@@ -11,4 +11,4 @@ dependencies = ["click"]
 excellent-quote = "quote_cli:main"
 
 [tool.setuptools.package-data]
-"" = ["quotes.csv"]  # include the CSV inside the wheel
+"*" = ["quotes.csv"]  # include the CSV inside the wheel
