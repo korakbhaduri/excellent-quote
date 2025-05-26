@@ -1,0 +1,14 @@
+[project]
+name = "excellent-quote"
+version = "0.1.0"
+description = "Tiny CLI that prints random Kevin Kelly quotes"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = ["click"]
+
+[project.scripts]
+excellent-quote = "quote_cli:main"
+
+[tool.setuptools.package-data]
+"" = ["quotes.csv"]  # include the CSV inside the wheel
