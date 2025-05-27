@@ -40,7 +40,7 @@ Tiny Python **CLI** that spits out random wisdom from Kevin Kelly’s
 
 * **One-liner install** – available on PyPI.  
 * **Zero configuration** – ships with `quotes.csv` (≈460 aphorisms).  
-* **Battle-tested CLI** built with [Click](https://palletsprojects.com/click/).  
+* **Battle-tested CLI** built with [Click](https://click.palletsprojects.com/).  
 * **Shell-friendly** – plain text to `stdout`, easy to pipe anywhere:
   * `excellent_quote | cowsay | lolcat`
   * `excellent_quote | say` (macOS TTS → “audio fortune-cookie”)  
