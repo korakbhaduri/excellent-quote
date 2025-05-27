@@ -1,5 +1,9 @@
+README.md
 pyproject.toml
-quote_cli.py
+excellent_quote/__init__.py
+excellent_quote/cli.py
+excellent_quote/loader.py
+excellent_quote/quotes.csv
 excellent_quote.egg-info/PKG-INFO
 excellent_quote.egg-info/SOURCES.txt
 excellent_quote.egg-info/dependency_links.txt
